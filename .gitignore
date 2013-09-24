@@ -33,3 +33,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Vagrant
+.vagrant
+
+# Mac
+.DS_Store
