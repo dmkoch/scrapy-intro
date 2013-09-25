@@ -5,7 +5,9 @@
 
 from scrapy.item import Item, Field
 
-class NewsbotItem(Item):
-    # define the fields for your item here like:
-    # name = Field()
-    pass
+class ArticleItem(Item):
+    url = Field()
+    source = Field()
+    headline = Field()
+    byline = Field()
+    article = Field()
