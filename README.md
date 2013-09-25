@@ -25,3 +25,9 @@ Introduction to Scrapy presentation for CharPy meetup Sep. 25, 2013
 
     cd /vagrant/newsbot
     scrapy crawl cnn -o articles.json
+
+### To build the presentation:
+
+    cd /vagrant
+    make
+    # presentation is created here: build/presentation.html
