@@ -20,3 +20,8 @@ Introduction to Scrapy presentation for CharPy meetup Sep. 25, 2013
 #### 3. Install PyPI requirements
 
     pip install -r /vagrant/requirements.txt
+
+#### 4. Run the spider
+
+    cd /vagrant/newsbot
+    scrapy crawl cnn -o articles.json
