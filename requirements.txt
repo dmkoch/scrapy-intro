@@ -1,0 +1,5 @@
+Scrapy==0.18.2
+Twisted==13.1.0
+lxml==3.2.3
+queuelib==1.0
+w3lib==1.3
